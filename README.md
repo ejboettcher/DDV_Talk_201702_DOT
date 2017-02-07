@@ -3,6 +3,7 @@ by Evelyn J. Boettcher
 
 ## DDV_Talk_201702_DOT
 Dayton Data Visualization Meetup Talk 
+*	[DDV Talk](https://docs.google.com/presentation/d/1DfbmtCJKQVGnex6X4_0GPhgitkCi0a6fufh2VAqx6sI/pub?start=true&loop=true&delayms=15000)
  
 February 9th, 2017
 
@@ -14,7 +15,7 @@ This repository contains some examples (some from the graphviz website) showcasi
 visualization service, or with a compatible graphical interface.
 Its features include well-tuned layout algorithms for placing nodes and edge
 splines, edge labels, “record” shapes with “ports” for drawing data structures;
-and cluster layouts (cite: www.graphviz.org/pdf/dotguide.pdf). Because "dot" takes 
+and cluster layouts [[Ref 1](www.graphviz.org/pdf/dotguide.pdf)]. Because "dot" takes 
 care  of the layout, you are free to focus on how objects are related to each other. 
 Graphs are simply written as a human readable text file:
 ```bash
