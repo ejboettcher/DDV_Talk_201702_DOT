@@ -1,0 +1,14 @@
+digraph tree {
+//Define overal sytle
+ size="22,16"
+ graph[label="", labelloc=t,labeljuct=1,fontname="Trebuchet MS",fontsize=18,ranksep=.4,height=11]
+ node[fontsize=14,shape=record,style=filled,fontname="Trebuchet MS"]
+ edge[fontsize=14,penwidth=5, fontname="Trebuchet MS", color=grey50]
+ //define node
+  what[label="What",style="rounded,filled",shape=box,color=steelblue,fillcolor=steelblue3]
+  why[label ="Why", shape="doubleoctagon"	,color=pink,fillcolor=plum]
+  how[label ="Compilers",color=palegreen1,fillcolor=palegreen3]
+  ex1[label ="Examples",shape="invtrapezium",fillcolor=goldenrod,color=goldenrod4]
+//Your Flow
+  what->why->how->ex1
+}

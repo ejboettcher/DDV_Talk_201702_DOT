@@ -1,0 +1,8 @@
+diagraph A{
+A->B->C
+C->{F->G}
+
+C[label=”Program Lead”, shape=box,           color=steelgrey   ]
+F[label=”Brown Noser,    shape=circle,         color=goldenrod ]
+G[label=”Lacky”,             shape=octagon,     color=palegreen3]
+}

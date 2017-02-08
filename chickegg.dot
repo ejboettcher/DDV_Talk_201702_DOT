@@ -1,0 +1,8 @@
+digraph G {
+node[style=filled]
+A->B->C
+C->{F,G}
+C[label="Program Lead",   shape=box,        color=steelblue  ]
+F[label="Brown Noser",    shape=circle,      color=goldenrod ]
+G[label="Lacky",          shape=octagon,     color=palegreen3]
+}

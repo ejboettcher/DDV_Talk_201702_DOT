@@ -1,0 +1,24 @@
+digraph tree {
+compound=true;
+ graph [fontsize=18 fontname="Verdana"];
+ node [fontsize=16 fontname="Verdana",  color=red, style=filled];
+
+dot[label="",color=white,style=filled]
+
+Dat[label="{|D|a|y|t|o|n}",shape=record,  ]
+Data[label="Data",shape=box,color=white,  ]
+Vis[label="V\ni\ns\nu\nl\ni\nz\na\nt\ni\no\nn\n\n",shape=box, ]
+dot2[label="",color=white,style=filled]
+date[label="{|F|e|b|r|a|r|y}",shape=record,width=.7 ]
+wht[label="{ |||T|a|l|k}",shape=record,width=.5 ]
+dot3[label="{Evelyn|3}",color=white,]
+emty[label="",shape=box3d,fillcolor=red,color=plum width=.2,height=2.25]
+emty1[label="",shape=point]
+
+dot->Dat[color=white]
+Data->Vis
+dot2->{date,wht,emty}->dot3[color=white]
+wht->dot3[color=none]
+emty->emty1
+{rank=same;date,wht,emty,emty1}
+}
